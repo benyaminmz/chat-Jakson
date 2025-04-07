@@ -502,7 +502,7 @@ async def convert_to_voice(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "messages": [
             {"role": "user", "content": full_text}
         ],
-        "voice": "Ash"
+        "voice": "ash"
     }
     
     loading_message = await context.bot.send_message(
